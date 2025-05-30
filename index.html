@@ -13,8 +13,8 @@
         
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: #333;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            color: #e2e8f0;
             line-height: 1.6;
         }
         
@@ -25,13 +25,13 @@
         }
         
         .slide {
-            background: rgba(255, 255, 255, 0.95);
+            background: rgba(26, 32, 44, 0.95);
             backdrop-filter: blur(10px);
             border-radius: 20px;
             padding: 40px;
             margin-bottom: 30px;
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(74, 85, 104, 0.3);
             display: none;
             animation: slideIn 0.6s ease-out;
         }
@@ -53,10 +53,10 @@
         
         .slide h1 {
             font-size: 2.5em;
-            color: #4a5568;
+            color: #e2e8f0;
             margin-bottom: 20px;
             text-align: center;
-            background: linear-gradient(135deg, #667eea, #764ba2);
+            background: linear-gradient(135deg, #60a5fa, #a78bfa);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -64,31 +64,31 @@
         
         .slide h2 {
             font-size: 2em;
-            color: #2d3748;
+            color: #f7fafc;
             margin-bottom: 15px;
-            border-bottom: 3px solid #667eea;
+            border-bottom: 3px solid #60a5fa;
             padding-bottom: 10px;
         }
         
         .slide h3 {
             font-size: 1.5em;
-            color: #4a5568;
+            color: #cbd5e0;
             margin: 20px 0 10px 0;
         }
         
         .why-section {
-            background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
-            border-left: 5px solid #ff6b6b;
+            background: linear-gradient(135deg, #2d1b69 0%, #11047a 100%);
+            border-left: 5px solid #8b5cf6;
         }
         
         .what-section {
-            background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
-            border-left: 5px solid #4ecdc4;
+            background: linear-gradient(135deg, #065f46 0%, #064e3b 100%);
+            border-left: 5px solid #10b981;
         }
         
         .how-section {
-            background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
-            border-left: 5px solid #ff8a80;
+            background: linear-gradient(135deg, #7c2d12 0%, #9a3412 100%);
+            border-left: 5px solid #f97316;
         }
         
         .kpi-grid {
@@ -99,17 +99,18 @@
         }
         
         .kpi-card {
-            background: rgba(255, 255, 255, 0.8);
+            background: rgba(45, 55, 72, 0.8);
             padding: 20px;
             border-radius: 12px;
             text-align: center;
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(74, 85, 104, 0.3);
         }
         
         .kpi-number {
             font-size: 2em;
             font-weight: bold;
-            color: #667eea;
+            color: #60a5fa;
         }
         
         .data-catalog {
@@ -120,14 +121,14 @@
         }
         
         .table-card {
-            background: rgba(255, 255, 255, 0.9);
+            background: rgba(45, 55, 72, 0.9);
             padding: 20px;
             border-radius: 12px;
-            border: 2px solid #e2e8f0;
+            border: 2px solid #4a5568;
         }
         
         .table-card h4 {
-            color: #2d3748;
+            color: #e2e8f0;
             margin-bottom: 10px;
             font-size: 1.2em;
         }
@@ -140,10 +141,10 @@
         }
         
         .week-card {
-            background: rgba(255, 255, 255, 0.9);
+            background: rgba(45, 55, 72, 0.9);
             padding: 20px;
             border-radius: 12px;
-            border-left: 5px solid #667eea;
+            border-left: 5px solid #60a5fa;
         }
         
         .tech-stack {
@@ -154,12 +155,12 @@
         }
         
         .tech-badge {
-            background: linear-gradient(135deg, #667eea, #764ba2);
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
             color: white;
             padding: 8px 16px;
             border-radius: 20px;
             font-weight: bold;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
         }
         
         .navigation {
@@ -171,7 +172,7 @@
         }
         
         .nav-btn {
-            background: linear-gradient(135deg, #667eea, #764ba2);
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
             color: white;
             border: none;
             padding: 12px 20px;
@@ -179,7 +180,7 @@
             cursor: pointer;
             font-weight: bold;
             transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
         }
         
         .nav-btn:hover {
@@ -196,11 +197,12 @@
             position: fixed;
             top: 30px;
             right: 30px;
-            background: rgba(255, 255, 255, 0.9);
+            background: rgba(45, 55, 72, 0.9);
             padding: 10px 20px;
             border-radius: 20px;
             font-weight: bold;
-            color: #4a5568;
+            color: #e2e8f0;
+            border: 1px solid rgba(74, 85, 104, 0.3);
         }
         
         ul, ol {
@@ -213,10 +215,11 @@
         }
         
         .highlight {
-            background: linear-gradient(120deg, #a8edea 0%, #fed6e3 100%);
+            background: linear-gradient(120deg, #1e40af 0%, #7c3aed 100%);
             padding: 2px 6px;
             border-radius: 4px;
             font-weight: bold;
+            color: white;
         }
         
         .scope-grid {
@@ -232,8 +235,8 @@
         }
         
         .in-scope {
-            background: linear-gradient(135deg, #d4ffd4, #a8e6a3);
-            border: 2px solid #4caf50;
+            background: linear-gradient(135deg, #064e3b, #065f46);
+            border: 2px solid #10b981;
         }
         
         .out-scope {
@@ -252,9 +255,9 @@
         <div class="slide active">
             <h1>E-commerce Customer Segmentation Project</h1>
             <div style="text-align: center; margin: 40px 0;">
-                <h2 style="border: none; font-size: 1.8em; color: #667eea;">Driving Sales and Loyalty Through Data-Driven Insights</h2>
-                <p style="font-size: 1.2em; color: #666; margin-top: 30px;">Stakeholder Check-In Meeting</p>
-                <p style="font-size: 1em; color: #888;">Data Analyst Bootcamp Capstone Project</p>
+                <h2 style="border: none; font-size: 1.8em; color: #60a5fa;">Driving Sales and Loyalty Through Data-Driven Insights</h2>
+                <p style="font-size: 1.2em; color: #a0aec0; margin-top: 30px;">Stakeholder Check-In Meeting</p>
+                <p style="font-size: 1em; color: #718096;">Data Analyst Bootcamp Capstone Project</p>
             </div>
         </div>
 
@@ -268,25 +271,6 @@
             
             <h3>📈 Business Impact & Background</h3>
             <p>In today's competitive e-commerce landscape, treating all customers uniformly is inefficient and costly. This project addresses the critical need to move beyond a "one-size-fits-all" approach.</p>
-            
-            <div class="kpi-grid">
-                <div class="kpi-card">
-                    <div class="kpi-number">25-40%</div>
-                    <p>Marketing Campaign Improvement</p>
-                </div>
-                <div class="kpi-card">
-                    <div class="kpi-number">15-20%</div>
-                    <p>Customer Retention Increase</p>
-                </div>
-                <div class="kpi-card">
-                    <div class="kpi-number">30-50%</div>
-                    <p>Email Campaign Performance</p>
-                </div>
-                <div class="kpi-card">
-                    <div class="kpi-number">10-15%</div>
-                    <p>Average Order Value Boost</p>
-                </div>
-            </div>
         </div>
 
         <!-- Slide 3: What -->
@@ -320,16 +304,6 @@
                         <li>Statistical hypothesis testing</li>
                         <li>A/B testing framework design</li>
                         <li>Business recommendations</li>
-                    </ul>
-                </div>
-                <div class="scope-card out-scope">
-                    <h3>❌ OUT OF SCOPE</h3>
-                    <ul>
-                        <li>Live marketing campaign implementation</li>
-                        <li>Real-time system integration</li>
-                        <li>Direct platform integrations</li>
-                        <li>Campaign execution</li>
-                        <li>Customer contact/outreach</li>
                     </ul>
                 </div>
             </div>
@@ -404,7 +378,6 @@
                 <div class="tech-badge">Tableau</div>
                 <div class="tech-badge">GitHub</div>
                 <div class="tech-badge">Pandas</div>
-                <div class="tech-badge">Scikit-learn</div>
                 <div class="tech-badge">Matplotlib/Seaborn</div>
             </div>
             
@@ -476,15 +449,7 @@
                 <li>Weekly check-in schedule establishment</li>
             </ul>
             
-            <h3>❓ Discussion Points</h3>
-            <ul>
-                <li>Are there specific customer segments you're particularly interested in?</li>
-                <li>What current marketing challenges should we prioritize?</li>
-                <li>Are there any additional data sources we should consider?</li>
-                <li>What would success look like for your business?</li>
-            </ul>
-            
-            <div style="text-align: center; margin-top: 40px; padding: 30px; background: linear-gradient(135deg, #667eea, #764ba2); border-radius: 15px; color: white;">
+            <div style="text-align: center; margin-top: 40px; padding: 30px; background: linear-gradient(135deg, #3b82f6, #8b5cf6); border-radius: 15px; color: white;">
                 <h2 style="color: white; border: none; margin-bottom: 15px;">Ready to Transform Customer Understanding</h2>
                 <p style="font-size: 1.2em;">Let's turn data into actionable insights that drive real business growth!</p>
             </div>
